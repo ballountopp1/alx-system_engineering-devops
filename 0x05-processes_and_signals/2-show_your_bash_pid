@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Displays bash proceses
+# You cannot use pgrep
+# shellcheck disable=SC2009
+
+./1-list_your_processes | grep "bash"
