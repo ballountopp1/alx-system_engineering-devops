@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# displayes bash processes using PID
+# Cannot use p s
+
+pgrep -l bash
